@@ -49,7 +49,7 @@ app.use((req, res, next) => {
 
 // --------- ROUTES ---------
 app.use("/insta", routes.insta);
-app.use("/youtube", routes.youtube);
+// app.use("/youtube", routes.youtube);
 
 app.get("/not-found", (req, res) => {
   return res.status(404).render("404");
