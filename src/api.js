@@ -49,6 +49,7 @@ app.use((req, res, next) => {
 
 // --------- ROUTES ---------
 app.use("/insta", routes.insta);
+app.use("/dp", routes.dp);
 // app.use("/youtube", routes.youtube);
 
 app.get("/not-found", (req, res) => {
